@@ -1,0 +1,56 @@
+/* CUSTOM PROPERTIES
+----------------------------------- */
+
+:root {
+  --Font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --color-turquoise: #4fc3b4;
+  --color-light-turquoise: #8ce5e5;
+  --color-gray: #999ca3;
+  --color-lemon-green: #c8d63f;
+  --color-white: #ffffff;
+  --font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* GLOBAL STYLES
+-------------------------------------- */
+
+body {
+  font-family: var(--font);
+  background: var(--color-white);
+  padding: 40px 20px;
+}
+
+header {
+  &:not(h1) {
+    color: var(--color-gray);
+  }
+
+  h1 + p {
+    font-weight: bold;
+  }
+}
+
+.first-part {
+  background-color: var(--color-turquoise);
+}
+
+.second-part {
+  background-color: var(--color-light-turquoise);
+}
+
+.first-part,
+.second-part {
+  padding: 20px;
+}
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.link {
+  text-decoration: none;
+  background-color: var(--color-lemon-green);
+  padding: 5px 40px;
+  margin-left: 60px;
+  margin-top: 30px;
+}
