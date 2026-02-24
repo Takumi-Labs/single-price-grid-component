@@ -2,22 +2,22 @@
 ----------------------------------- */
 
 :root {
-  --Font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   --color-turquoise: #4fc3b4;
   --color-light-turquoise: #8ce5e5;
   --color-gray: #999ca3;
-  --color-lemon-green: #c8d63f;
+  --color-light-gray: #e8e9eb;
+  --color-lemon-green: #c0df34;
   --color-white: #ffffff;
-  --font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* GLOBAL STYLES
 -------------------------------------- */
 
 body {
-  font-family: var(--font);
   background: var(--color-white);
   padding: 40px 20px;
+  width: 50%;
+  margin: 0 auto;
 }
 
 header {
@@ -30,12 +30,41 @@ header {
   }
 }
 
+.main-heading {
+  color: var(--color-turquoise);
+}
+
+.guarantee {
+  color: var(--color-lemon-green);
+}
+
+.main-content {
+  color: var(--color-white);
+  width: 100%;
+}
+
+.price {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.access {
+  margin-bottom: 30px;
+}
+
+.subscription {
+  font-size: 16px;
+  color: var(--color-light-gray);
+}
+
 .first-part {
   background-color: var(--color-turquoise);
+  border-bottom-left-radius: 5px;
 }
 
 .second-part {
   background-color: var(--color-light-turquoise);
+  border-bottom-right-radius: 5px;
 }
 
 .first-part,
@@ -49,8 +78,41 @@ section {
 
 .link {
   text-decoration: none;
+  color: var(--color-white);
   background-color: var(--color-lemon-green);
-  padding: 5px 40px;
-  margin-left: 60px;
+  padding: 10px 50px;
   margin-top: 30px;
+  border-radius: 5px;
+}
+
+.provision-title {
+  margin-left: 35px;
+}
+
+.provision {
+  color: var(--color-light-gray);
+  list-style-type: none;
+}
+
+.list-item {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 800px) {
+  header,
+  .main-content {
+    display: block;
+  }
+
+  .link {
+    margin-left: 25px;
+  }
+
+  .first-part {
+    border-radius: 0;
+  }
+
+  .second-part {
+    border-radius: 0;
+  }
 }
