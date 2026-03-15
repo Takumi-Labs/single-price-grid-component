@@ -91,7 +91,7 @@ body {
   background-color: var(--color-light-turquoise);
   color: var(--color-white);
   padding-right: 155px;
-  padding-left: 60px;
+  padding-left: 30px;
   border-bottom-right-radius: 7px;
 }
 
@@ -115,6 +115,10 @@ body {
   .header-section,
   .main-container {
     display: block;
+  }
+
+  .card-container{
+    width: 90%
   }
 
   .link {
