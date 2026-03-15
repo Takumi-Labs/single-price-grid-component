@@ -56,7 +56,7 @@ body {
 .first-part {
   background-color: var(--color-turquoise);
   color: var(--color-white);
-  padding-right: 80px;
+  padding-right: 100px;
   padding-left: 40px;
   padding-top: 15px;
   padding-bottom: 30px;
@@ -84,13 +84,13 @@ body {
   padding: 10px 30px;
   margin-top: 30px;
   border-radius: 5px;
-  padding-right: 75px;
+  padding-right: 115px;
 }
 
 .second-part {
   background-color: var(--color-light-turquoise);
   color: var(--color-white);
-  padding-right: 100px;
+  padding-right: 120px;
   border-bottom-right-radius: 7px;
 }
 
