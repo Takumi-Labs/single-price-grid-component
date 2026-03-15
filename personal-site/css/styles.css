@@ -84,20 +84,20 @@ body {
   padding: 10px 30px;
   margin-top: 30px;
   border-radius: 5px;
-  padding-right: 115px;
+  padding-right: 135px;
 }
 
 .second-part {
   background-color: var(--color-light-turquoise);
   color: var(--color-white);
-  padding-right: 120px;
+  padding-right: 140px;
   border-bottom-right-radius: 7px;
 }
 
 .provision-title {
   padding-left: 40px;
   padding-top: 15px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .provision {
