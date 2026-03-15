@@ -57,7 +57,7 @@ body {
   background-color: var(--color-turquoise);
   color: var(--color-white);
   padding-right: 100px;
-  padding-left: 60px;
+  padding-left: 40px;
   padding-top: 15px;
   padding-bottom: 30px;
   border-bottom-left-radius: 7px;
@@ -91,6 +91,7 @@ body {
   background-color: var(--color-light-turquoise);
   color: var(--color-white);
   padding-right: 155px;
+  padding-left: 60px;
   border-bottom-right-radius: 7px;
 }
 
