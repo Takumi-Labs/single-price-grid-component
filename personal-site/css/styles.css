@@ -51,6 +51,7 @@ body {
 
 .main-container {
   display: flex;
+  width: 100%;
 }
 
 .first-part {
