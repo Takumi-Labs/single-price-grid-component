@@ -94,17 +94,19 @@ body {
   padding-right: 55px;
   padding-left: 20px;
   border-bottom-right-radius: 7px;
-}
+  
 
 .provision-title {
   padding-left: 40px;
   padding-top: 15px;
-  margin-top: 25px;
+  margin-top: 0;
+  
 }
 
 .provision {
   color: var(--color-light-gray);
   list-style-type: none;
+  
   margin-bottom: 30px;
 }
 
