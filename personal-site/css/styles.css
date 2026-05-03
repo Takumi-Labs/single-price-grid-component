@@ -79,7 +79,7 @@ body {
   color: var(--color-light-gray);
 }
 
-.btn {
+button {
   color: var(--color-white);
   background-color: var(--color-lemon-green);
   padding: 10px 20px;
