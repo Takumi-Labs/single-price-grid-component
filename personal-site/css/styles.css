@@ -106,13 +106,14 @@ body {
 .provision {
   color: var(--color-light-gray);
   list-style-type: none;
-  
-  margin-bottom: 30px;
 }
 
 .list-item {
   margin-bottom: 5px;
 }
+
+.list-item.last {
+  padding-bottom: 30;
 
 @media (max-width: 800px) {
   .header-section,
