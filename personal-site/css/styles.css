@@ -78,8 +78,7 @@ body {
   color: var(--color-light-gray);
 }
 
-.link {
-  text-decoration: none;
+.btn {
   color: var(--color-white);
   background-color: var(--color-lemon-green);
   padding: 10px 20px;
