@@ -58,7 +58,7 @@ body {
 .first-part {
   background-color: var(--color-turquoise);
   color: var(--color-white);
-  padding-right: 40px;
+  padding-right: 20px;
   padding-left: 40px;
   padding-top: 15px;
   padding-bottom: 30px;
