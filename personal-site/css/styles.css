@@ -81,10 +81,10 @@ body {
   text-decoration: none;
   color: var(--color-white);
   background-color: var(--color-lemon-green);
-  padding: 10px 30px;
+  padding: 10px 20px;
   margin-top: 30px;
   border-radius: 5px;
-  padding-right: 150px;
+  padding-right: 100px;
 }
 
 .second-part {
