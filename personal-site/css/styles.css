@@ -90,7 +90,7 @@ body {
 .second-part {
   background-color: var(--color-light-turquoise);
   color: var(--color-white);
-  padding-right: 155px;
+  padding-right: 55px;
   padding-left: 20px;
   border-bottom-right-radius: 7px;
 }
