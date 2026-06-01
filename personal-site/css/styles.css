@@ -1,4 +1,4 @@
-/* CUSTOM PROPERTIES
+ CUSTOM PROPERTIES
 ----------------------------------- */
 
 :root {
@@ -17,7 +17,7 @@ body {
   background: var(--color-white);
   width: 50%;
   margin: 0 auto;
-}
+} 
 
 .card-container {
   font-family: "Karla", sans-serif;
@@ -67,6 +67,7 @@ body {
   padding-top: 15px;
   padding-bottom: 30px;
   border-bottom-left-radius: 7px;
+  flex: 1;
 }
 
 .price {
@@ -86,25 +87,27 @@ body {
 button {
   color: var(--color-white);
   background-color: var(--color-lemon-green);
-  padding: 10px 20px;
+  padding: 15px 20px;
   margin-top: 30px;
   border-radius: 5px;
   border: none;
-  padding-right: 80px;
+  padding-right: 100px;
   padding-left: 80px;
 }
 
 .second-part {
   background-color: var(--color-light-turquoise);
   color: var(--color-white);
+  flex: 1;
   padding-right: 55px;
-  padding-left: 20px;
+  padding-left: 15px;
   border-bottom-right-radius: 7px;
+}
   
 
 .provision-title {
-  padding-left: 40px;
-  padding-top: 15px;
+  padding-left: 20px;
+  padding-top: 25px;
   margin-top: 0;
   
 }
@@ -112,14 +115,15 @@ button {
 .provision {
   color: var(--color-light-gray);
   list-style-type: none;
+  padding-left: 20px;
 }
 
 .list-item {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .last {
-  padding-bottom: 30;
+  padding-bottom: 15px;
 
 @media (max-width: 800px) {
   .header-section,
