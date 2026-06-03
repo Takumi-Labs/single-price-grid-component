@@ -31,6 +31,7 @@ body {
 .header-section {
   &:not(h1) {
     color: var(--color-gray);
+    margin-bottom: 20px;
   }
 
   h1 + p {
@@ -63,7 +64,7 @@ body {
   background-color: var(--color-turquoise);
   color: var(--color-white);
   padding-right: 20px;
-  padding-left: 40px;
+  padding-left: 30px;
   padding-top: 15px;
   padding-bottom: 30px;
   border-bottom-left-radius: 7px;
@@ -84,15 +85,17 @@ body {
   color: var(--color-light-gray);
 }
 
-button {
+.btn {
   color: var(--color-white);
   background-color: var(--color-lemon-green);
   padding: 15px 20px;
   margin-top: 30px;
   border-radius: 5px;
   border: none;
-  padding-right: 100px;
+  padding-right: 120px;
   padding-left: 80px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+
 }
 
 .second-part {
@@ -124,6 +127,7 @@ button {
 
 .last {
   padding-bottom: 15px;
+}
 
 @media (max-width: 800px) {
   .header-section,
@@ -132,18 +136,21 @@ button {
   }
 
   .card-container{
-    width: 90%
+    width: 90%;
   }
 
-  .link {
+  .btn {
     padding-right: 130px;
     margin-left: 0;
+    width: 100%;
+    text-wrap: nowrap;
   }
       
 
   .first-part {
     border-radius: 0;
     flex: 1;
+    padding-left: 20px;
   }
 
   .second-part {
@@ -155,7 +162,8 @@ button {
   }
 
   .provision-title {
-    margin-left: 15px;
+    margin-left: 20px;
+    padding-left: 0;
   }
 
   .provision {
