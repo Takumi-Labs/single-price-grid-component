@@ -1,0 +1,172 @@
+/* CUSTOM PROPERTIES
+----------------------------------- */
+
+:root {
+  --color-turquoise: #2ab2af;
+  --color-light-turquoise: #49bebd;
+  --color-gray: #98a6bd;
+  --color-light-gray: #e5eff5;
+  --color-lemon-green: #c0df34;
+  --color-white: #ffffff;
+}
+
+/* GLOBAL STYLES
+-------------------------------------- */
+
+body {
+  background: var(--color-white);
+  width: 50%;
+  margin: 0 auto;
+} 
+
+.card-container {
+  font-family: "Karla", sans-serif;
+  background: var(--color-white);
+  width: 650px;
+  margin-top: 70px;
+  border-radius: 7px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.header-section {
+  &:not(h1) {
+    color: var(--color-gray);
+    margin-bottom: 20px;
+  }
+
+  h1 + p {
+    font-weight: bold;
+  }
+
+  & {
+    padding: 10px 25px;
+  }
+}
+
+.main-heading {
+  color: var(--color-turquoise);
+}
+
+.guarantee {
+  color: var(--color-lemon-green);
+}
+
+.main-container {
+  display: flex;
+  width: 100%;
+}
+
+.sub-heading {
+  font-size: 18px;
+}
+
+.first-part {
+  background-color: var(--color-turquoise);
+  color: var(--color-white);
+  padding-right: 20px;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  border-bottom-left-radius: 7px;
+  flex: 1;
+}
+
+.price {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.access {
+  margin-bottom: 30px;
+}
+
+.subscription {
+  font-size: 16px;
+  color: var(--color-light-gray);
+}
+
+.btn {
+  color: var(--color-white);
+  background-color: var(--color-lemon-green);
+  padding: 15px 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+  border: none;
+  padding-right: 120px;
+  padding-left: 80px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+
+}
+
+.second-part {
+  background-color: var(--color-light-turquoise);
+  color: var(--color-white);
+  flex: 1;
+  padding-right: 55px;
+  padding-left: 15px;
+  border-bottom-right-radius: 7px;
+}
+  
+
+.provision-title {
+  padding-left: 20px;
+  padding-top: 25px;
+  margin-top: 0;
+  
+}
+
+.provision {
+  color: var(--color-light-gray);
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.list-item {
+  margin-bottom: 8px;
+}
+
+.last {
+  padding-bottom: 15px;
+}
+
+@media (max-width: 800px) {
+  .header-section,
+  .main-container {
+    display: block;
+  }
+
+  .card-container{
+    width: 90%;
+  }
+
+  .btn {
+    padding-right: 130px;
+    margin-left: 0;
+    width: 100%;
+    text-wrap: nowrap;
+  }
+      
+
+  .first-part {
+    border-radius: 0;
+    flex: 1;
+    padding-left: 20px;
+  }
+
+  .second-part {
+    border-radius: 0;
+    padding-left: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    flex: 1;
+  }
+
+  .provision-title {
+    margin-left: 20px;
+    padding-left: 0;
+  }
+
+  .provision {
+    padding-left: 20px;
+  }
+}
